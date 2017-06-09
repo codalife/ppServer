@@ -15,7 +15,7 @@ fs.readdirSync(cldDir)
 
       for(var key in delim.main){
         if (delim.main.hasOwnProperty(key)) {
-          delimitersObj[delim.main[key].identity.language] = delim.main[key].delimiters.quotationStart;
+          delimitersObj[delim.main[key].identity.language] = delim.main[key].delimiters;
         }
       };
     });

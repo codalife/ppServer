@@ -1,7 +1,7 @@
-const controller = require('./models/delimiters');
+const delimitersController = require('./controllers/delimitersController');
 
 module.exports = function(app){
-  app.get('/', function(req, res, next){
-      res.send("All good");
+  app.post('/', function(req, res, next){
+    delimitersController(req, res);
   });
 }

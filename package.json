@@ -10,6 +10,7 @@
   "author": "Anuar Zhukenov",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "cldr-core": "^31.0.1",
     "cldr-misc-full": "^31.0.1",
     "cors": "^2.8.3",
